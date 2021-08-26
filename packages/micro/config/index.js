@@ -129,6 +129,9 @@ let config = {
     proxy: {},
     lessLoaderOption: {
       additionalData: "@import '~/src/style/index.less';",
+      lessOptions: {
+        javascriptEnabled: true,
+      },
     },
     postcss: {
       autoprefixer: {

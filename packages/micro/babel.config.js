@@ -58,5 +58,12 @@ module.exports = {
       require('babel-plugin-transform-taroapi'),
       { packageName: '@tarojs/taro', apis },
     ], // taro可以加，tree-shaking用
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        style: true,
+      },
+    ],
   ],
 }
