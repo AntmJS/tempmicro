@@ -1,8 +1,8 @@
 {
-  "name": "antmui",
+  "name": "tempmicro",
   "private": true,
   "author": "三少 <hi_sanshao@outlook.com>",
-  "description": "前端组件库",
+  "description": "基于taro的pc微应用开发模板",
   "license": "MIT",
   "keywords": [
     "Taro",
@@ -81,6 +81,9 @@
         }
       }
     }
+  },
+  "theme": {
+    "hd": "2px"
   },
   "scripts": {
     "eslint": "npx eslint -c eslint.config.js '**/*.{js,jsx,ts,tsx}' && npx tsc -p tsconfig.json --skipLibCheck",
