@@ -2846,9 +2846,14 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+antd-dayjs-webpack-plugin@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/antd-dayjs-webpack-plugin/download/antd-dayjs-webpack-plugin-1.0.6.tgz#7d98bcb51422248b8cd4a32e352a0425a3bffa3a"
+  integrity sha1-fZi8tRQiJIuM1KMuNSoEJaO/+jo=
+
 antd@^4.16.13:
   version "4.16.13"
-  resolved "https://registry.nlark.com/antd/download/antd-4.16.13.tgz?cache=0&sync_timestamp=1629706353524&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.16.13.tgz#e9b9b4a590db28747aae1cab98981649a35880af"
+  resolved "https://registry.nlark.com/antd/download/antd-4.16.13.tgz?cache=0&sync_timestamp=1630937009033&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.16.13.tgz#e9b9b4a590db28747aae1cab98981649a35880af"
   integrity sha1-6bm0pZDbKHR6rhyrmJgWSaNYgK8=
   dependencies:
     "@ant-design/colors" "^6.0.0"

@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const npath = require('path')
 const IceStarkPlugin = require('@antmjs/plugin-icestark')
+const AntdDayjsWebpackPlugin = require('antd-dayjs-webpack-plugin')
 const pkg = require('../package.json')
 const miniChain = require('./webpack/miniChain')
 const h5Chain = require('./webpack/h5Chain')
@@ -78,6 +79,8 @@ let config = {
         .plugin('IceStarkPlugin')
         .use(new IceStarkPlugin({ libraryName: pkg.name }))
       chain.output.library(pkg.name).libraryTarget('umd')
+
+      chain.plugin('antdDayjsWebpackPlugin').use(new AntdDayjsWebpackPlugin())
 
       if (process.env.NODE_ENV === 'production') {
         chain.mode('production')
